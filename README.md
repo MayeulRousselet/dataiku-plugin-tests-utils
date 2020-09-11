@@ -1,2 +1,2 @@
 # dataiku-plugin-tests-utils
-Commin tooling for DSS plugins
+Common tooling for DSS plugins
