@@ -9,7 +9,7 @@ setuptools.setup(
     version="0.0.1",
     description="The common tooling needed for each plugin",
     author="Dataiku",
-    long_description=long_description,
+    long_description=long_desc,
     long_description_content_type="text/markdown",
     url="https://www.dataiku.com",
     packages=["dku_plugin_test_utils"],
