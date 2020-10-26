@@ -20,5 +20,7 @@ setuptools.setup(
             'Programming Language :: Python',
             'Operating System :: OS Independent'
         ],
-    python_requires='>=2.7'
+    python_requires='>=2.7',
+    install_requires = [
+        "dataiku-api-client"
 )
