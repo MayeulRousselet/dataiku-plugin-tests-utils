@@ -23,4 +23,5 @@ setuptools.setup(
     python_requires='>=2.7',
     install_requires = [
         "dataiku-api-client"
+        ]
 )
