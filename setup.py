@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_desc,
     long_description_content_type="text/markdown",
     url="https://www.dataiku.com",
-    packages=["dku_plugin_test_utils"],
+    packages=setuptools.find_packages(),
     classifiers = [
             'Intended Audience :: Developers',
             'License :: OSI Approved :: Apache Software License',
