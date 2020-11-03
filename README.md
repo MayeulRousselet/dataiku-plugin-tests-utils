@@ -41,6 +41,8 @@ Secondly, define a config file which will give the DSS you will target.
 }
 ```
 
+Then, set the env var PLUGIN_INTEGRATION_TEST_INSTANCE to point to the config file.
+
 ### Usage
 
 Define you test will the following snippet:
