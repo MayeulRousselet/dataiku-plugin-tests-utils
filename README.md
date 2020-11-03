@@ -24,3 +24,27 @@ Put the following line under `[dev-packages]` section
 `dku-plugin-test-utils = {git = "git://github.com/dataiku/dataiku-plugin-tests-utils.git", ref = "<BRANCH>"}`
 ### Stable release
 TBD
+
+# How to use it
+
+## Dev env
+
+### Config
+
+First, ensure that you have Personal Api Keys generated for the DSS you want to target.
+
+Secondly, define a config file which will give the DSS you will target.
+```
+{
+  "dss7": { "url" : ...., "api_key": ....},
+   "dss8": {.......}
+}
+```
+
+### Usage
+
+Define you test will the following snippet:
+```
+def test_run_read_zendesk_incremental(client, plugin):
+    scenario(client, 'PLUGINTESTZENDESK', 'run_read_zendesk_incremental')
+```
